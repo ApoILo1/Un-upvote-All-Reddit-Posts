@@ -18,7 +18,7 @@ This Python script allows users to un-upvote all their previously upvoted Reddit
 To clone this project to your local machine, run the following command:
 
 ```bash
-git clone https://github.com/yourusername/Un-upvote-All-Reddit-Posts.git
+git clone https://github.com/ApoILo1/Un-upvote-All-Reddit-Posts.git
 ```
 
 Navigate to the cloned directory:
