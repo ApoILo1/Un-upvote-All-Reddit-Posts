@@ -89,5 +89,3 @@ python unvoter.py
 - **OAuth issues**: Ensure your credentials in the `.env` file are correct. Double-check the **Client ID**, **Client Secret**, **Username**, and **Password** fields.
 - **Rate limit errors**: The script includes delays between requests to avoid hitting Reddit’s API rate limits, but if you see rate-limit errors, try increasing the delay by modifying the `time.sleep()` values in the script.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
