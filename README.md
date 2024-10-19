@@ -60,12 +60,6 @@ user_agent=your_user_agent
 Use `pip` to install the required modules:
 
 ```bash
-pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt`, you can install PRAW directly:
-
-```bash
 pip install praw
 ```
 
@@ -74,11 +68,12 @@ pip install praw
 Once everything is set up, you can run the script to start un-upvoting your Reddit posts:
 
 ```bash
-python unvoter/unvoter.py
+cd unvoter
+python unvoter.py
 ```
 
 ### Important Notes:
-- The script has built-in rate limiting using `time.sleep()` to avoid API errors.
+- The script has built-in rate limiting using `time.sleep()` to avoid API errors, please do not remove them.
 - It may take multiple runs to un-upvote all posts due to Reddit's rate limiting.
 
 ## Troubleshooting
