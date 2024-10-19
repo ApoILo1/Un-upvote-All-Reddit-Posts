@@ -23,7 +23,7 @@ git clone https://github.com/ApoILo1/Un-upvote-All-Reddit-Posts.git
 
 Navigate to the cloned directory:
 ```bash
-cd Un-upvote-All-Reddit-Posts/unvoter
+cd Un-upvote-All-Reddit-Posts
 ```
 
 ### 2. Set Up Reddit API Credentials
