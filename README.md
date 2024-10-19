@@ -36,6 +36,14 @@ cd Un-upvote-All-Reddit-Posts/unvoter
 
 After cloning the repo, create a `.env` file in the **root** of the project (outside of the `unvoter` folder).
 
+First do this:
+```
+pip install python-dotenv
+```
+Then create a new file called .env, in your root directory.
+Your folder should look like this:
+
+
 ```
 Un-upvote-All-Reddit-Posts/
 ├── unvoter/
